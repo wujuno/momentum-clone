@@ -13,7 +13,9 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100%;
+  position: relative;
 
 }
 /*중앙 맞추기위한 임시 조치*/
@@ -55,4 +57,16 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 700;
+}
+.quotes {
+    position: absolute;
+    bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+}
+.quotes span:first-child {
+    margin-bottom: 10px;
+    font-size: 20px;
 }
