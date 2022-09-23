@@ -50,3 +50,4 @@ if(savedToDos) {
     toDos = parsedToDos;
     parsedToDos.forEach(paintNewToDo);
  }
+
